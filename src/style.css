@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -11,16 +15,17 @@ body {
 
 .gate-page {
   min-height: 100vh;
-  box-sizing: border-box;
+  min-height: 100dvh;
   display: grid;
   place-items: center;
+  width: 100%;
+  padding: 24px;
   background: #fbfaf5;
 }
 
 .gate-panel {
   width: min(100%, 420px);
   padding: 34px;
-  box-sizing: border-box;
   background: white;
   border: 1px solid #e0e8dc;
   border-radius: 12px;
@@ -133,4 +138,23 @@ button:disabled {
 
 .portal-page {
   max-width: 720px;
+}
+
+@media (max-width: 520px) {
+  .gate-page {
+    padding: 18px;
+  }
+
+  .gate-panel {
+    padding: 26px 22px;
+  }
+
+  .gate-logo {
+    width: 156px;
+    margin-bottom: 26px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 }
