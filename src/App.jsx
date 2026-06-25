@@ -80,6 +80,11 @@ export default function App() {
   return (
     <main className="site gate-page">
       <section className="gate-panel">
+        <img
+          alt="FreeBite"
+          className="gate-logo"
+          src="/freebite-logo-horizontal-green.svg"
+        />
         <p className="eyebrow">FreeBite restaurant portal</p>
         <h1>Beta access</h1>
         <p>
