@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "pages:dev": "npm run build && wrangler pages dev dist",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,5 +15,8 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "vite": "^7.2.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.118.0"
   }
 }

@@ -1,5 +1,9 @@
 node_modules
 dist
+.wrangler/
 *.local
+.dev.vars*
 vite-dev.log
 vite-dev.err.log
+wrangler-*.log
+wrangler-*.err.log
