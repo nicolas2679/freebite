@@ -162,7 +162,7 @@ function LaunchPage() {
 
               <p className="interest-legal">
                 FreeBite Inc., 303-740 Proudfoot Lane, London, ON N6H 5H2,
-                Canada. <a href="mailto:nicolas@freebite.ca">nicolas@freebite.ca</a>
+                Canada. <a href="mailto:hello@freebite.ca">hello@freebite.ca</a>
                 {" | "}
                 <a href="/privacy">Privacy</a>
               </p>
@@ -299,7 +299,7 @@ function PrivacyPage() {
             <br />
             London, ON N6H 5H2, Canada
             <br />
-            <a href="mailto:nicolas@freebite.ca">nicolas@freebite.ca</a>
+            <a href="mailto:hello@freebite.ca">hello@freebite.ca</a>
           </address>
         </article>
       </main>
